@@ -1,0 +1,13 @@
+{
+  "name": "midi-sustain-pedal-controlled-by-a-game-controller",
+  "version": "1.0.0",
+  "description": "The name, isn't it self-descriptive enough?",
+  "main": "index.js",
+  "repository": "git@github.com:dtinth/midi-sustain-pedal-controlled-by-a-game-controller.git",
+  "author": "Thai Pangsakulyanont <dtinth@spacet.me>",
+  "license": "MIT",
+  "dependencies": {
+    "gamepad": "^1.4.2",
+    "midi": "^0.9.5"
+  }
+}
