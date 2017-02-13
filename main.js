@@ -1,4 +1,11 @@
 const gamepad = require('gamepad')
+const midi = require('midi')
+
+// Set up a new output.
+const output = new midi.output()
+
+// Create a virtual output port.
+output.openVirtualPort('midi-sustain-pedal-controlled-by-a-game-controller')
 
 // Initialize the library
 gamepad.init()
