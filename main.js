@@ -28,9 +28,15 @@ gamepad.on('move', function (id, axis, value) {
 // Listen for button up events on all gamepads
 gamepad.on('up', function (id, num) {
   console.log('up', { id: id, num: num })
+  if (num === 9) {
+    output.sendMessage([ 0xB0, 0x40, 0 ])
+  }
 })
 
 // Listen for button down events on all gamepads
 gamepad.on('down', function (id, num) {
   console.log('down', { id: id, num: num })
+  if (num === 9) {
+    output.sendMessage([ 0xB0, 0x40, 127 ])
+  }
 })
