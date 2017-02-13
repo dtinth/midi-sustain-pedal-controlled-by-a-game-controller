@@ -2,7 +2,7 @@
 
 <p align="center">I need a sustain pedal to use with a MIDI keyboard, but I don’t have one.</p>
 
-<p align="center">I once created [iPedal](https://github.com/dtinth/ipedal) which allows me to use my iPad as a foot pedal:</p>
+<p align="center">I once created <a href="https://github.com/dtinth/ipedal">iPedal</a> which allows me to use my iPad as a foot pedal:</p>
 
 <p align="center"><a href="http://imgur.com/7fEbNrQ"><img src="http://i.imgur.com/7fEbNrQ.jpg" title="Hosted by imgur.com"/></a></p>
 
