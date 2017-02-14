@@ -2,7 +2,7 @@
   "name": "midi-sustain-pedal-controlled-by-a-game-controller",
   "version": "1.0.0",
   "description": "The name, isn't it self-descriptive enough?",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "git@github.com:dtinth/midi-sustain-pedal-controlled-by-a-game-controller.git",
   "author": "Thai Pangsakulyanont <dtinth@spacet.me>",
   "license": "MIT",
